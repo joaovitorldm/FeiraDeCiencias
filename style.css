@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: #e0f7fa;
 }
 header > img{
     width: 800px;
@@ -13,15 +13,15 @@ header > h1{
     text-align: center;
 }
 .caixas > img{
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     border-radius: 30px 30px;
 }
 .caixas > p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 0 30px;
+    margin: 0 30px 0 30px;
 }
 .caixas{
     display: flex;
@@ -29,4 +29,22 @@ header > h1{
     width: 800px;
     margin: 0 auto;
     margin-top: 50px;
+}
+.botao > button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botao > button:hover{
+    background-color: #45a049;
 }
